@@ -97,14 +97,83 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ----- Base Header - Footer Styles ----- */
+
+header, 
+footer {
+
+}
+
+header .content-wrapper {
+
+}
+
+header nav {
+
+}
+
+header nav ul {
+
+}
+
+footer .social-icons {
+
+}
+
+footer .social-icons p{
+
+}
 
 
+/* ----- Mobile Styles - Homepage ----- */
 
+/* Hero Area */ 
 
+.hero-area {
 
+}
 
+/* Aside */
 
+aside {
 
+}
+
+/* Features */ 
+
+.features {
+
+}
+
+.features .features-item {
+
+}
+
+/* Reviews */ 
+
+.reviews {
+
+}
+
+/* ----- Mobile Styles - About Page -----*/
+
+.mission {
+
+}
+
+.contact-section {
+
+}
+
+/* ----- Mobile Styles - FAQ Page -----*/
+
+.faq {
+
+}
+
+.faq .content-wrapper {
+    
+}
 
 
 /* ==========================================================================
