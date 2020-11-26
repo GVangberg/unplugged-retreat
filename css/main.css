@@ -142,11 +142,11 @@ p {
 }
 
 img {
-
+    width: 100%;
 }
 
 figure {
-
+    margin: 0;
 }
 
 address {
@@ -173,6 +173,14 @@ footer {
 
 header {
     padding: 15px 0;
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 header .content-wrapper {
@@ -247,6 +255,10 @@ footer .copyright {
 /* Hero Area */ 
 
 .hero-area {
+    background-image: url(../img/img-hero-72ppi.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -258,6 +270,8 @@ footer .copyright {
     font-weight: 500; 
     line-height: 1.2; 
   }
+
+
 
 /* Aside */
 
@@ -298,6 +312,9 @@ aside .form{
 /* Features */ 
 
 .features {
+    background-image: url(../img/img-feet-72ppi.jpg);
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -501,6 +518,10 @@ aside .form{
     header .content-wrapper {
         width: 100%;
         justify-content: space-between;
+    }
+
+    header figure {
+        width: 30%;
     }
 
     header nav {
