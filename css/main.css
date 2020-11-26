@@ -211,7 +211,7 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -336,6 +336,12 @@ aside .form{
 
 .features h2 {
     margin-bottom: 60px;
+}
+
+.features-items {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 .features article {
@@ -560,10 +566,11 @@ aside .form{
     }
 
     header nav {
-        width: 20%;
+        width: 30%;
     }
 
     header nav ul {
+        display: flex;
         justify-content: space-between;
     }
 
@@ -597,6 +604,10 @@ aside .form{
         flex-basis: 50%;
       }
 
+    .features-items p {
+        width: 80%;
+    }
+
     .features .features-item {
         width: 50%;
     }
@@ -608,7 +619,16 @@ aside .form{
     }
 
     .reviews article div {
-        width: 49%
+        width: 49%;
+        padding-left: 2%;
+    }
+
+    .reviews article div h3 {
+        margin: 0;
+    }
+
+    .reviews figure {
+        width: 60%;
     }
 
     /* Footer */ 
@@ -625,6 +645,22 @@ aside .form{
 
     .footer-contact {
         margin-bottom: 0;
+    }
+
+    footer .social-icons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .social {
+        width: 50%;
+        padding-top: 0;
+    }
+
+    .social h4 {
+        margin: 0;
+        border: 2px pink solid;
     }
 
     footer .copyright {
