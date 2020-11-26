@@ -695,6 +695,10 @@ aside .form{
         width: 95%;
     }
 
+    .map figure {
+        padding-bottom: 37%;
+      }
+
     /* FAQ Page */
     .faq h2 {
         width: 100%
