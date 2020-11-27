@@ -392,8 +392,18 @@ aside .form{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
 }
+
+.mission-content {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+/***** This class isn't working here. It works in the tablet media query - this query overrules this class in the mobile view *****/
+.mission-content p {
+    width: 100%;
+  }
 
 .map figure {
     width: 100%;
@@ -417,11 +427,19 @@ aside .form{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-}
-
-.contact-content p {
+  }
+  
+  .contact-content p {
     margin: 0;
-}
+    width: 100%;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+  }
 
 /* ----- Mobile Styles - FAQ Page -----*/
 
@@ -640,7 +658,7 @@ aside .form{
     .footer-content {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .footer-contact {
@@ -658,22 +676,17 @@ aside .form{
         padding-top: 0;
     }
 
-    .social h4 {
-        margin: 0;
-        border: 2px pink solid;
-    }
-
     footer .copyright {
         width: 100%;
     }
-}
 
 /* About Page */
   .mission-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px
+    flex-flow: row wrap;
+    padding-top: 20px;
   }
 
   .mission-content p {
@@ -685,13 +698,15 @@ aside .form{
   }
 
   .contact-section .content-wrapper h2 {
-    width: 80%;
+    width: 90%;
   }
 
   .contact-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-flow: row wrap;
+    width: 90%;
   }
 
   /* FAQ */
@@ -706,6 +721,7 @@ aside .form{
   .faq h2 {
     width: 100%;
   }
+}
 
 @media only screen and (min-width: 1200px) {
     /* Dektop styles here */
