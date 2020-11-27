@@ -665,9 +665,14 @@ aside .form{
         margin-bottom: 0;
     }
 
-    footer .social-icons {
+    footer .social-container {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+    }
+
+    footer .social-icons {
+        width: 12.5em;
+        justify-content: space-between;
         align-items: center;
     }
 
